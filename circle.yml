@@ -4,3 +4,4 @@ machine:
 test:
   override:
     - phpunit -c app/
+    - ./bin/phpcs src/ -n
